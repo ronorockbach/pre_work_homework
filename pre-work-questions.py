@@ -59,11 +59,9 @@ is_leap_year(a_year)
 # [1,2,8,5,7] are not consecutive numbers.
 # Return should be boolean type (True/False)
 
-def is_consecutive(a_list):
+def is_consecutive(numbers):
      """Check if numbers are consecutive or not."""
-     a_list = [1, 2, 3, 4, 5]
-     for num in a_list:
-          if num >= 0 + 1:
-               print("These are consecutive numbers!")
-               break
-is_consecutive(a_list)
+     for numbers in numbers:
+          return 0+1
+     
+     print(is_consecutive(1,3,5,7,2))
