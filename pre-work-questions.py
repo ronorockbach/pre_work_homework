@@ -61,8 +61,7 @@ is_leap_year(a_year)
 
 def is_consecutive(numbers):
      """Check if numbers are consecutive or not."""
-     for num in a_list:
-          if numbers in numbers:
+     for numbers in numbers:
                return 0+1
           
                print(is_consecutive(1,3,5,7,2))
